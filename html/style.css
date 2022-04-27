@@ -1,0 +1,44 @@
+
+#contain{
+    width: 80%;
+    border: 5px solid black;
+}
+#photo1-img{
+    background-image: url(image/photo1.jpg);
+    height: 100vh;
+    margin: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-1{
+    background-color: #333;
+}
+#ourwork-section{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.photo2-img{
+    display:block;
+    width: 100%;
+    /* height: auto; */
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* both ways you can use the image */
+/* #photo2-img{
+    background-image: url(image/photo2.jpg);
+    height: 80vh;
+    margin: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
